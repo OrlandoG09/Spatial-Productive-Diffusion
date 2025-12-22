@@ -30,22 +30,31 @@ Para ejecutar este script, necesitas los siguientes archivos en el directorio ra
 * `Ms_1.xlsx`: Archivo de Excel con hojas por año (`2003`, `2008`, `2013`, `2018`, `2023`). Cada hoja contiene la matriz binaria de ramas industriales por municipio.
 
 ## Instalación y Uso
+## 🚀 Instalación y Uso
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/OrlandoG09/Spatial-Productive-Diffusion.git](https://github.com/Orlando G09/Spatial-Productive-Diffusion.git)
+    git clone [https://github.com/OrlandoG09/Spatial-Productive-Diffusion.git](https://github.com/OrlandoG09/Spatial-Productive-Diffusion.git)
     cd Spatial-Productive-Diffusion
     ```
 
-2.  **Instalar dependencias:**
-    Se recomienda usar un entorno virtual (conda o venv).
+2.  **Crear y activar un entorno virtual (Opcional pero recomendado):**
     ```bash
-    pip install pandas geopandas libpysal openpyxl numpy
+    python -m venv venv
+    # En Windows:
+    .\venv\Scripts\activate
+    # En Mac/Linux:
+    source venv/bin/activate
     ```
 
-3.  **Ejecutar el script:**
+3.  **Instalar dependencias:**
     ```bash
-    python AnalisisDE.py
+    pip install -r requirements.txt
+    ```
+
+4.  **Ejecutar el script:**
+    ```bash
+    python main.py
     ```
   
 
@@ -64,4 +73,5 @@ Estos resultados permiten identificar qué industrias dependen de la aglomeraci�
 ---
 
 *Este proyecto es parte de una investigación sobre la dinámica económica regional en México.*
+
 
