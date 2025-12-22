@@ -1,0 +1,38 @@
+# --- Datos del Proyecto (Importante: No subir esto) ---
+# Archivos de Excel (Entradas y Salidas)
+*.xlsx
+*.xls
+*.csv
+
+# Archivos Shapefile (GeoPandas)
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.shx.xml
+
+# --- Python General ---
+# Archivos compilados y cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Entornos Virtuales ---
+# Carpetas comunes de entornos (si creaste uno)
+env/
+venv/
+.venv/
+.env
+
+# --- IDEs y Sistema Operativo ---
+# Archivos de configuración de editores
+.vscode/
+.idea/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
