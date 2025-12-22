@@ -33,7 +33,7 @@ Para ejecutar este script, necesitas los siguientes archivos en el directorio ra
 
 1.  **Clonar el repositorio:**
     ```bash
-    git clone [https://github.com/TU_USUARIO/Spatial-Productive-Diffusion.git](https://github.com/TU_USUARIO/Spatial-Productive-Diffusion.git)
+    git clone [https://github.com/OrlandoG09/Spatial-Productive-Diffusion.git](https://github.com/Orlando G09/Spatial-Productive-Diffusion.git)
     cd Spatial-Productive-Diffusion
     ```
 
@@ -45,9 +45,9 @@ Para ejecutar este script, necesitas los siguientes archivos en el directorio ra
 
 3.  **Ejecutar el script:**
     ```bash
-    python main.py
+    python AnalisisDE.py
     ```
-    *(Asegúrate de cambiar `main.py` por el nombre real de tu archivo .py)*
+  
 
 ## Resultados
 
@@ -64,3 +64,4 @@ Estos resultados permiten identificar qué industrias dependen de la aglomeraci�
 ---
 
 *Este proyecto es parte de una investigación sobre la dinámica económica regional en México.*
+
