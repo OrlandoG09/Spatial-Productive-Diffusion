@@ -54,7 +54,7 @@ Para ejecutar este script, necesitas los siguientes archivos en el directorio ra
 
 4.  **Ejecutar el script:**
     ```bash
-    python main.py
+    python AnalisisDE.py
     ```
   
 
@@ -73,5 +73,6 @@ Estos resultados permiten identificar qué industrias dependen de la aglomeraci�
 ---
 
 *Este proyecto es parte de una investigación sobre la dinámica económica regional en México.*
+
 
 
