@@ -24,7 +24,7 @@ El script procesa datos geográficos y matrices de producción industrial de per
 
 ## Estructura de Datos Requerida
 
-Para ejecutar este script, necesitas los siguientes archivos en el directorio raíz (no incluidos en el repo por privacidad/tamaño):
+Para ejecutar este script, necesitas los siguientes archivos en el directorio raíz (no incluidos en el repo por privacidad):
 
 * `mun22gw.shp`: Shapefile con la geometría de los municipios (Índice: CVEGEO).
 * `Ms_1.xlsx`: Archivo de Excel con hojas por año (`2003`, `2008`, `2013`, `2018`, `2023`). Cada hoja contiene la matriz binaria de ramas industriales por municipio.
@@ -53,7 +53,7 @@ Para ejecutar este script, necesitas los siguientes archivos en el directorio ra
 
 El script genera un archivo `Tasas_Difusion_Por_Rama.xlsx` que contiene:
 * Tasas de contagio inducido por periodo (quinquenal y acumulado).
-* Tasas de aparición espontánea por periodo.
+* Tasas de aparición espontánea por periodo(quinquenal y acumulado).
 
 Estos resultados permiten identificar qué industrias dependen de la aglomeración espacial y cuáles surgen de manera aislada.
 
@@ -62,4 +62,5 @@ Estos resultados permiten identificar qué industrias dependen de la aglomeraci�
 * **[Orlando Galván Moreno]** - *Economía y Ciencia de Datos* - [https://github.com/OrlandoG09]
 
 ---
+
 *Este proyecto es parte de una investigación sobre la dinámica económica regional en México.*
