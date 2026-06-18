@@ -24,7 +24,7 @@ El script procesa datos geográficos y matrices de producción industrial de per
 
 ## Estructura de Datos Requerida
 
-Para ejecutar este script, necesitas los siguientes archivos en el directorio raíz (no incluidos en el repo por privacidad):
+Para ejecutar este script, necesitas los siguientes archivos en el directorio raíz (Ms_1 no incluido en el repo por privacidad):
 
 * `mun22gw.shp`: Shapefile con la geometría de los municipios (Índice: CVEGEO).
 * `Ms_1.xlsx`: Archivo de Excel con hojas por año (`2003`, `2008`, `2013`, `2018`, `2023`). Cada hoja contiene la matriz binaria de ramas industriales por municipio.
